@@ -1,5 +1,71 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
+@charset "UTF-8";
 
-body{
+body {
+    background: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    width: 300px;
+    height: 440px;
     background: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    padding: 20px;
+    box-sizing: border-box; 
+}
+
+
+.suit {
+    font-size: 70px;
+    height: 70px;
+    width :fit-content
+}
+
+#top-suit {
+    align-self: flex-start;
+}
+
+#bottom-suit {
+    text-align: right;
+    transform: rotate(180deg); 
+    align-self: flex-end;
+}
+
+
+#cardContent {
+    font-size: 150px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.red { color: red; }
+.black { color: black; }
+
+.button {
+    margin-top: 20px;
+    padding: 15px 30px;
+    background: #e69156;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #444;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
 }

@@ -1,21 +1,20 @@
-<!doctype html>
-<html lang="en">
-
+<!DOCTYPE html>
+<html lang="es">
 <head>
-  <title>Card dealer</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card Dealer</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
-
 <body>
   <div class="centered">
     <div id="theCard" class="card">
-      <p id="cardContent"></p>
+      <div id="top-suit" class="suit"></div>
+      <div id="cardContent"></div>
+      <div id="bottom-suit" class="suit"></div>
     </div>
+    <button id="drawButton" class="button">Cambia tu carta</button>
   </div>
-
-  <script type=" module" src="/app.js">
-        </script>
+  <script src="app.js"></script>
 </body>
-
 </html>
